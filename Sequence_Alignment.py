@@ -47,3 +47,5 @@ def ms_a(seq1,seq2,seq3,seq4):
         print( "Sequences are in the Twilight Zone of Homology")
     elif same_per < 20:
         print( "Sequences are in the Midnight Zone of Homology")
+
+# Problem in code 
