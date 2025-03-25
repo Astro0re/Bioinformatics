@@ -30,3 +30,20 @@ s_a(x,y)
 
 relational(x,y)
 
+# Multiple Sequences
+def ms_a(seq1,seq2,seq3,seq4):
+    same=[]
+    for i in seq1:
+        for j in seq2:
+            for k in seq3:
+                for l in seq4:
+            if i == j and i == k and i == l :
+                same.append(i)
+    same_per = (len(same)*len(ms_a))/(len(seq1)+len(seq2)) * 100
+    print( "The percentage of similarity is", same_per)
+    if same_per >= 40:
+        print( "Sequences are Homologous")
+    elif  20 <= same_per < 40:
+        print( "Sequences are in the Twilight Zone of Homology")
+    elif same_per < 20:
+        print( "Sequences are in the Midnight Zone of Homology")
