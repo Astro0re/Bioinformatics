@@ -32,6 +32,10 @@ relational(x,y)
 
 # Multiple Sequences
 def ms_a(seq1,seq2,seq3,seq4):
+    s_seq1 = Set(seq1)
+    s_seq2 = Set(seq2)
+    s_seq3 = Set(seq3)
+    s_seq4 = Set(seq4)
     same=[]
     for i in seq1:
         for j in seq2:
