@@ -32,17 +32,17 @@ relational(x,y)
 
 # Multiple Sequences
 def ms_a(seq1,seq2,seq3,seq4):
-    s_seq1 = Set(seq1)
-    s_seq2 = Set(seq2)
-    s_seq3 = Set(seq3)
-    s_seq4 = Set(seq4)
+    s_seq1 = set(seq1)
+    s_seq2 = set(seq2)
+    s_seq3 = set(seq3)
+    s_seq4 = set(seq4)
     same=[]
     for i in seq1:
         for j in seq2:
             for k in seq3:
                 for l in seq4:
-            if i in j and in k and in l :
-                same.append(i)
+                    if i == j and i == k and i == l :
+                        same.append(i)
     same_per = (len(same)*len(ms_a))/(len(seq1)+len(seq2)+len(seq3)+len(seq4)) * 100
     print( "The percentage of similarity is", same_per)
     if same_per >= 40:
