@@ -52,9 +52,9 @@ def ms_a(seq1,seq2,seq3,seq4):
     elif same_per < 20:
         print( "Sequences are in the Midnight Zone of Homology")
 
-d = ['a','d','f','e','p','w','r']
-s = ['a','d','f','e','b','w','r']
-z = ['a','d','f','e','p','w','r']
+d = ['a','d','f','e','p','a','h']
+s = ['a','d','n','e','b','m','r']
+z = ['y','s','f','e','p','n','r']
 k = ['a','d','f','e','b','w','r']
 
 ms_a(d,s,z,k)
