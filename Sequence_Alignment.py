@@ -58,3 +58,10 @@ z = ['y','s','f','e','p','n','r']
 k = ['a','d','f','e','b','w','r']
 
 ms_a(d,s,z,k)
+
+# Run Code of FASTA files
+FAS_1=['A','T','G','G','C','T','A','C','A','G','T','C','A','G','C','A','C','A','C','A','G','C','G','G','T','C','G','T','A']
+FAS_2=['A','T','G','G','C','C','A','A','G','A','T','C','A','A','C','A','C','C','C','A','A','T','A','C','T','C','C','C','A']
+
+s_a(FAS_1,FAS_2)
+relational(FAS_1,FAS_2)
