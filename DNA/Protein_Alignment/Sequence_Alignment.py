@@ -1,5 +1,7 @@
 # Source(ME) Check out https://github.com/Astro0re/Biological-Codes/blob/master/Sequence%20Alignment.py
 def s_a(seq1,seq2):
+    input("Sequence 1: ")
+    input("Sequence 2: ")
     same=[]
     for i in seq1:
         for j in seq2:
@@ -18,6 +20,8 @@ def s_a(seq1,seq2):
 
 
 def relational(seq1,seq2):
+    input("Sequence 1: ")
+    input("Sequence 2: ")
     if len(seq1) == len(seq2):
         print("Sequence is relational")
     elif len(seq1) - len(seq2) >= 20 or -20 :
@@ -32,6 +36,10 @@ relational(x,y)
 
 # Multiple Sequences
 def ms_a(seq1,seq2,seq3,seq4):
+    input("Sequence 1: ")
+    input("Sequence 2: ")
+    input("Sequence 3: ")
+    input("Sequence 4: ")
     s_seq1 = set(seq1)
     s_seq2 = set(seq2)
     s_seq3 = set(seq3)
