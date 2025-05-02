@@ -59,6 +59,10 @@ k = ['a','d','f','e','b','w','r']
 
 ms_a(d,s,z,k)
 
+def Sequence_Analysis(seq1,seq2):
+    s_a(seq1,seq2)
+    relational(seq1,seq2)
+
 # Run Code of FASTA files
 FAS_1=['A','T','G','G','C','T','A','C','A','G','T','C','A','G','C','A','C','A','C','A','G','C','G','G','T','C','G','T','A']
 FAS_2=['A','T','G','G','C','C','A','A','G','A','T','C','A','A','C','A','C','C','C','A','A','T','A','C','T','C','C','C','A']
