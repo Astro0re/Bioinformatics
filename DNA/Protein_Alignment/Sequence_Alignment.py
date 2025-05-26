@@ -1,3 +1,10 @@
+# Vailidate Sequence 
+def val(seq):
+    SEQ=seq.upper()
+    for i in SEQ:
+        if i != "A" or "C" or "G" or "T":
+            return "Error Validating Sequence"
+        
 # Source(ME) Check out https://github.com/Astro0re/Biological-Codes/blob/master/Sequence%20Alignment.py
 def s_a(seq1,seq2):
     print("Running analysis...")
