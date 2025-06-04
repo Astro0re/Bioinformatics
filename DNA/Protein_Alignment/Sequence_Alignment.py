@@ -13,7 +13,7 @@ def s_a(seq1,seq2):
         for j in seq2:
             if i == j:
                 same.append(i)
-    same_per = ((len(same)*2)/(len(seq1)+len(seq2))) * 100
+    same_per = ((len(same))/(len(seq1)+len(seq2))) * 100
     print( "The percentage of similarity is", same_per)
     if same_per >= 40:
         print( "Sequences are Homologous")
@@ -53,7 +53,7 @@ def ms_a(seq1,seq2,seq3,seq4):
                 for l in seq4:
                     if i == j and i == k and i == l :
                         same.append(i)
-    same_per = ((len(same)*4)/(len(seq1)+len(seq2)+len(seq3)+len(seq4))) * 100
+    same_per = ((len(same))/(len(seq1)+len(seq2)+len(seq3)+len(seq4))) * 100
     print( "The percentage of similarity is", same_per)
     if same_per >= 40:
         print( "Sequences are Homologous")
@@ -81,4 +81,3 @@ s_a(FAS_1,FAS_2)
 
 # relational(FAS_1,FAS_2)
 
-# Check Math 
