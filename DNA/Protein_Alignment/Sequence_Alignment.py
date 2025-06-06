@@ -8,12 +8,13 @@ def val(seq):
 # Source(ME) Check out https://github.com/Astro0re/Biological-Codes/blob/master/Sequence%20Alignment.py
 def s_a(seq1,seq2):
     print("Running analysis...")
-    same=[]
-    for i in seq1:
-        for j in seq2:
-            if i == j:
-                same.append(i)
-    same_per = ((len(same))/(len(seq1)+len(seq2))) * 100
+    min_len = min(len(seq1), len(seq2))
+    same = 0
+    for i in range(min_len):
+        if seq1[i] == seq2[i]:
+            same += 1
+    same_per = (same / min_len) * 100
+
     print( "The percentage of similarity is", same_per)
     if same_per >= 40:
         print( "Sequences are Homologous")
@@ -21,7 +22,6 @@ def s_a(seq1,seq2):
         print( "Sequences are in the Twilight Zone of Homology")
     elif same_per < 20:
         print( "Sequences are in the Midnight Zone of Homology")
-
 
 
 
@@ -42,19 +42,12 @@ y = ['a','d','f','e','b','w','r']
 # Multiple Sequences
 def ms_a(seq1,seq2,seq3,seq4):
     print("Running analysis...")
-    s_seq1 = set(seq1)
-    s_seq2 = set(seq2)
-    s_seq3 = set(seq3)
-    s_seq4 = set(seq4)
-    same=[]
-    for i in seq1:
-        for j in seq2:
-            for k in seq3:
-                for l in seq4:
-                    if i == j and i == k and i == l :
-                        same.append(i)
-    same_per = ((len(same))/(len(seq1)+len(seq2)+len(seq3)+len(seq4))) * 100
-    print( "The percentage of similarity is", same_per)
+    min_len = min(len(seq1), len(seq2),len(seq3),len(seq4))
+    same = 0
+    for i in range(min_len):
+        if seq1[i] == seq2[i] == seq3[i] == seq4[i]:
+            same += 1
+    same_per = (same / min_len) * 100
     if same_per >= 40:
         print( "Sequences are Homologous")
     elif  20 <= same_per < 40:
@@ -74,8 +67,8 @@ def Sequence_Analysis(seq1,seq2):
     relational(seq1,seq2)
 
 # Run Code of FASTA files
-FAS_1=['A','T','G','G','C','T','A','C','A','G','T','C','A','G','C','A','C','A','C','A','G','C','G','G','T','C','G','T','A']
-FAS_2=['A','T','G','G','C','C','A','A','G','A','T','C','A','A','C','A','C','C','C','A','A','T','A','C','T','C','C','C','A']
+FAS_1=['A','T','G','G','C','T','A','C','A','G','T','C','A','G','C','A','C','A','C','A','G','C','G','G','T','C','G','T','A','G','G','A']
+FAS_2=['A','T','G','G','C','C','A','A','G','A','T','C','A','A','C','A','C','C','C','A','A','T','A','C','T','C','C','C','A','C','C','A']
 
 s_a(FAS_1,FAS_2)
 
