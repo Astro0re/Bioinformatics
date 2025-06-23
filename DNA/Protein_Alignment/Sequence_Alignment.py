@@ -5,7 +5,6 @@ def val(seq):
         if i != "A" or "C" or "G" or "T":
             return "Error Validating Sequence"
         
-# Source(ME) Check out https://github.com/Astro0re/Biological-Codes/blob/master/Sequence%20Alignment.py
 def s_a(seq1,seq2):
     print("Running analysis...")
     min_len = min(len(seq1), len(seq2))
@@ -67,10 +66,11 @@ def Sequence_Analysis(seq1,seq2):
     relational(seq1,seq2)
 
 # Run Code of FASTA files
-FAS_1=['A','T','G','G','C','T','A','C','A','G','T','C','A','G','C','A','C','A','C','A','G','C','G','G','T','C','G','T','A','G','G','A']
-FAS_2=['A','T','G','G','C','C','A','A','G','A','T','C','A','A','C','A','C','C','C','A','A','T','A','C','T','C','C','C','A','C','C','A']
+FAS_1=['A','T','G','G','C','T','A','C','A','G','T','C','A','G','C','A','C','A','C','A','G','C','G','G','T','C','G','T','A']
+FAS_2=['A','T','G','G','C','C','A','A','G','A','T','C','A','A','C','A','C','C','C','A','A','T','A','C','T','C','C','C','A','A','T','G','G','C','C','A','A','G','A','T','C','A','A','C','A','C','C','C','A','A','T','A','C','T','C','C','C','A','A','T','G','G','C','C','A','A','G','A','T','C','A','A','C','A','C','C','C','A','A','T','A','C','T','C','C','C','A']
 
 s_a(FAS_1,FAS_2)
 
-# relational(FAS_1,FAS_2)
+relational(FAS_1,FAS_2)
 
+# Pairwise Sequence ALignment (Batches are compared and overflowing sequences are also compared)
