@@ -74,3 +74,9 @@ s_a(FAS_1,FAS_2)
 relational(FAS_1,FAS_2)
 
 # Pairwise Sequence ALignment (Batches are compared and overflowing sequences are also compared)
+
+#Ideas
+#Word Algorithim 
+#Analysis on genetic data(Protein Details)
+#Health Problem Preditcion Models 
+#Pipline to get Screen time information and cross check againt those that wear glasses??
