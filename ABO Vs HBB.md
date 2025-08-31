@@ -20,7 +20,10 @@ genes and their variants using common bioinformatics tools such as
 Ugene, Pymol etc.
 
 ## Sequence Alignment
+Word algorithim using 
 
 ## Location Comparison
+Tabular diffrences between the two
 
 ## 3D Structure Comparison
+3D structure using Chimera Bioinformatics tools
