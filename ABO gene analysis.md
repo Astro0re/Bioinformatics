@@ -14,7 +14,7 @@ compare and analyse this gene, looking into it's sequencial and
 structural make up, as well as looking at possible mutations and it's
 effects.
 
-Gene gotten form the National Center of Biotechnology Institute (NCBI) 
+Gene sequence gotten from the [National Center of Biotechnology information (NCBI)](https://www.ncbi.nlm.nih.gov/)
 ## Sequence
 General information about the sequence ie location, size 
 ## Gene Prediction

@@ -19,6 +19,8 @@ will be looking at both the sequencial and structural make up of both
 genes and their variants using common bioinformatics tools such as
 Ugene, Pymol etc.
 
+Gene sequences gotten from the [National Center of Biotechnology Information (NCBI)](https://www.ncbi.nlm.nih.gov/)
+
 ## Sequence Alignment
 Word algorithim using 
 
