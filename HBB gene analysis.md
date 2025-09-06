@@ -23,3 +23,4 @@ Gene sequence gotten from the [National Center of Biotechnology Information (NCB
 ## Variants
 
 ## 3D Structure
+Visualized using PYMol Application

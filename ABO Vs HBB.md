@@ -28,4 +28,4 @@ Word algorithim using
 Tabular diffrences between the two
 
 ## 3D Structure Comparison
-3D structure using Chimera Bioinformatics tools
+3D structure using PYMol Bioinformatics tools

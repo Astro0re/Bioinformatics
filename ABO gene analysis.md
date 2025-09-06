@@ -23,4 +23,4 @@ Using Softberry web service (Operon and gene finding menue- fgenesB) taking
 ## Variants
 Varitaions in the sequence leading to the different types of Blood groups occur in the -- region of the gene 
 ## 3D Structure
-3D structure done using chimera bioinformatics tool
+Visualized using PYMol Application
