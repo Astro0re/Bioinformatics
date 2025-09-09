@@ -22,5 +22,8 @@ Gene sequence gotten from the [National Center of Biotechnology Information (NCB
 
 ## Variants
 
+## Secondary Structures
+The secondary structures of these genes will be predicted using the USCF Chimera program 
+
 ## 3D Structure
 Visualized using PYMol Application

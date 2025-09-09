@@ -27,5 +27,8 @@ Word algorithim using
 ## Location Comparison
 Tabular diffrences between the two
 
+## Secondary Structure
+The secondary structures of this gene will be predicted using the USCF Chimera program 
+
 ## 3D Structure Comparison
-3D structure using PYMol Bioinformatics tools
+3D structure 

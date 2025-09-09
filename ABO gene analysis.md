@@ -19,8 +19,13 @@ Gene sequence gotten from the [National Center of Biotechnology information (NCB
 General information about the sequence ie location, size 
 ## Gene Prediction
 Using Softberry web service (Operon and gene finding menue- fgenesB) taking 
+Running this program certain information can be found out, on such information is that the gene posseses 25 transcription units with 4 Operons
 
 ## Variants
 Varitaions in the sequence leading to the different types of Blood groups occur in the -- region of the gene 
+
+## Secondary Structure
+The secondary structures of this gene will be predicted using the USCF Chimera program 
+
 ## 3D Structure
 Visualized using PYMol Application
