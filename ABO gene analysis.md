@@ -19,11 +19,13 @@ information (NCBI)](https://www.ncbi.nlm.nih.gov/)
 
 ## Sequence
 
-General information about the sequence ie location, size The ABO gene
-discoverd about 100 years ago, has been of great importance to the
+General information about the sequence ie location, size 
+The ABO gene discoverd about 100 years ago, has been of great importance to the
 understanding and application of inherited characteristic and potential
 immunogenic impact during transfusions(Dean, 2005). Located on the 9th
 chromosome and a lenght of 24801
+
+Using Next-Generation Sequencing methods on voluntary research participants, among them while studying the intronic and extronic regions where amplified using PCR-SBT method, two novel ABO alleles were identified and recombination samples found. 
 
 ## Gene Prediction
 
