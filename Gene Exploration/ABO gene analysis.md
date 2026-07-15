@@ -22,8 +22,62 @@ information (NCBI)](https://www.ncbi.nlm.nih.gov/)
 General information about the sequence ie location, size 
 The ABO gene discoverd about 100 years ago, has been of great importance to the
 understanding and application of inherited characteristic and potential
-immunogenic impact during transfusions(Dean, 2005). Located on the 9th
-chromosome and a lenght of 24801
+immunogenic impact during transfusions(Dean, 2005). 
+Located on the 9th chromosome and a lenght of 24801
+
+Hidden Markov model to get the coding sequence 
+Taking a look at the features of this gene, the [Agustus [gene prediction]](https://bioinf.uni-greifswald.de/augustus/) tool was used for analysis.
+
+The ABO gene was predicted to posses three distinct gene sequneces each with about four coding sequences
+
+#### Gene sequence one;
+Gene length = 24801 
+start position =  13
+end positon = 19536
+Transcript size (messenger RNA) = (19536 - 13) 19523
+
+CDS 1 = 13:40
+CDS 2 = 14363:14391
+CDS 3 = 17663:17793
+CDS 4 = 18846:19536
+
+Protein Sequence:[MAEVLRTLAAAGVIFPEHKEGCPRGTPWLAPIVWEGTFNIDILNEQFRLQNTTIGLTVFAIKKYVAFLKLFLETAEKH
+FMVGHRVHYYVFTDQPAAVPRVTLGTGRQLSVLEVRAYKRWQDVSMRRMEMISDFCERRFLSEVDYLVCVDVDMEFRDHVGVEILTPLFGTLHPGFYG
+SSREAFTYERRPQSQAYIPKDEGDFYYLGGFFGGSVQEVQRLTRACHQAMMVDQANGIEAVWHDESHLNKYLLRHKPTKVLSPEYLWDQQLLGWPAVL
+RKLRFTAVPKNHQAVRNP] 
+
+#### Gene sequence Two;
+Gene length = 24938 
+start position =  13
+end positon = 19537
+Transcript size (messenger RNA) = (19537 - 13) 19524
+
+CDS 1 = 13:40
+CDS 2 = 13034:13103
+CDS 3 = 17660:17794
+CDS 4 = 18847:19537
+
+Protein Sequence:[MAEVLRTLAGKPKCHALRPMILFLIMLVLVLFGRKDVLVVTPWLAPIVWEGTFNIDILNEQFRLQNTTIGLTVFAIKK
+YVAFLKLFLETAEKHFMVGHRVHYYVFTDQLAAVPRVTLGTGRQLSVLEVRAYKRWQDVSMRRMEMISDFCERRFLSEVDYLVCVDVDMEFRDHVGVE
+ILTPLFGTLHPGFYGSSREAFTYERRPQSQAYIPKDEGDFYYLGGFFGGSVQEVQRLTRACHQAMMVDQANGIEAVWHDESHLNKYLLRHKPTKVLSP
+EYLWDQQLLGWPAVLRKLRFTAVPKNHQAVRNP]
+
+#### Gene sequence Three;
+Gene length = 25093
+start position =  13
+end positon = 19548
+Transcript size (messenger RNA) = (19548 - 13) 19535
+
+CDS 1 = 13:40
+CDS 2 = 13045:13114
+CDS 3 = 17671:17805
+CDS 4 = 18858:19548
+
+Protein Sequence:[MAEVLRTLAGKPKCHALRPMILFLIMLVLVLFGRKDVLVVTPWLAPIVWEGTFNIDILNEQFRLQNTTIGLTVFAIKK
+YVAFLKLFLETAEKHFMVGHRVHYYVFTDQPAAVPRVTLGTGRQLSVLEVGAYKRWQDVSMRRMEMISDFCERRFLSEVDYLVCVDVDMEFRDHVGVE
+ILTPLFGTLHPSFYGSSREAFTYERRPQSQAYIPKDEGDFYYMGAFFGGSVQEVQRLTRACHQAMMVDQANGIEAVWHDESHLNKYLLRHKPTKVLSP
+EYLWDQQLLGWPAVLRKLRFTAVPKNHQAVRNP]
+
 
 Using Next-Generation Sequencing methods on voluntary research participants, among them while studying the intronic and extronic regions where amplified using PCR-SBT method, two novel ABO alleles were identified and recombination samples found. 
 
